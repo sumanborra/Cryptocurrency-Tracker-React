@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.background-container {
+  background-color: #000000;
+  min-height: 100vh;
+  font-family: 'roboto';
+  padding: 20px;
+}
+.CryptocurrencyTracker-container {
+  font-family: roboto;
+}
+@media screen and (max-width: 767px){
+  .background-container{
+    padding: 10px;
+  }
+
+}

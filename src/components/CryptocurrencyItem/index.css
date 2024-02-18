@@ -1,0 +1,34 @@
+/* Write your CSS code here */
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+.currencyLogo-image {
+  height: 40px;
+  margin-right: 10px;
+}
+.currencyName-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+}
+.currency-margin {
+  margin-left: 60px;
+}
+@media (max-width: 767px) {
+  .currencyLogo-image {
+    height: 20px;
+  }
+  .currencyName-text {
+    font-size: 12px;
+  }
+  .currency-margin {
+    margin-left: 10px;
+  }
+}
